@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mubin Y. | Chemistry & Data Professional</title>
+    <style>
+        /* Professional Tech-Science Theme */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', 'Segoe UI', sans-serif; }
+        
+        body { 
+            background: radial-gradient(circle at 50% 50%, #1e293b 0%, #0f172a 100%);
+            color: #f1f5f9; 
+            line-height: 1.6; 
+        }
+
+        /* Navigation */
+        nav { display: flex; justify-content: space-between; padding: 20px 8%; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid #334155; }
+        .logo { font-size: 1.4rem; font-weight: bold; color: #38bdf8; letter-spacing: 1px; }
+        nav ul { display: flex; list-style: none; }
+        nav ul li { margin-left: 25px; }
+        nav ul li a { text-decoration: none; color: #cbd5e1; font-size: 0.9rem; font-weight: 500; transition: 0.3s; }
+        nav ul li a:hover { color: #38bdf8; }
+
+        /* Hero Section */
+        .hero { 
+            height: 95vh; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            text-align: center;
+            background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95)), url('https://www.transparenttextures.com/patterns/carbon-fibre.png'); 
+        }
+
+        .profile-img {
+            width: 170px; height: 170px; border-radius: 50%; border: 3px solid #38bdf8;
+            object-fit: cover; margin-bottom: 25px; box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+        }
+
+        h1 { font-size: 3.5rem; margin-bottom: 10px; font-weight: 800; }
+        .highlight { color: #38bdf8; }
+        .tagline { font-size: 1.2rem; color: #94a3b8; margin-bottom: 35px; max-width: 700px; }
+
+        /* Buttons */
+        .btn-group { display: flex; gap: 15px; }
+        .btn { padding: 12px 30px; border-radius: 8px; font-weight: 700; text-decoration: none; transition: 0.3s; cursor: pointer; }
+        .btn-primary { background: #38bdf8; color: #0f172a; }
+        .btn-secondary { border: 2px solid #38bdf8; color: #38bdf8; }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(56, 189, 248, 0.3); }
+
+        /* Content Sections */
+        .container { padding: 100px 15%; }
+        h2 { font-size: 2rem; margin-bottom: 40px; color: #f8fafc; border-left: 5px solid #38bdf8; padding-left: 15px; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: #1e293b; padding: 30px; border-radius: 15px; border: 1px solid #334155; transition: 0.3s; }
+        .card:hover { border-color: #38bdf8; background: #232f44; }
+        .card h3 { color: #38bdf8; margin-bottom: 15px; }
+        
+        .percentage { font-weight: bold; color: #38bdf8; font-size: 1.1rem; }
+
+        footer { text-align: center; padding: 80px 15%; background: #0f172a; border-top: 1px solid #334155; }
+        .footer-contact { color: #94a3b8; margin-bottom: 20px; font-size: 0.95rem; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">MUBIN.Y</div>
+        <ul>
+            <li><a href="#about">Objective</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Work</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <img src="D:\my webpage\Images\mubina.jpeg" alt="Mubin Y." class="profile-img">
+        <h1>Mubin <span class="highlight">Y.</span></h1>
+        <p class="tagline">B.Sc. Chemistry Graduate specialized in Analytical Data Processing & Quantitative Reasoning </p>
+        
+        <div class="btn-group">
+            <a href="d:\my webpage\Mubeen CV.pdf" download class="btn btn-primary">Download CV</a>
+            <a href="mailto:yahiyamubin@gmail.com" class="btn btn-secondary">Email Me</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>Career Objective</h2>
+        <p>Analytical B.Sc. graduate and current Full Stack Development student seeking an entry-level IT role. Combining a scientist's precision with a growing proficiency in full-stack architecture to build efficient digital solutions. Dedicated to continuous technical growth and contributing to innovative projects.</p>
+    </section>
+
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>B.Sc. Chemistry</h3>
+            <p><strong>Mss Wakf Board College</strong> | Madurai | 2021 </p>
+            <p>Academic Standing: <span class="percentage">76.43%</span> </p>
+            <p style="margin-top:10px;"><em>Coursework focus: Mathematical Methods in Chemistry & Analytical Data Processing.</em></p>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Key Competencies</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Analytical & Logic</h3>
+                <p>Data Analysis and Interpretation, Quantitative Reasoning, and Problem-Solving.</p>
+            </div>
+            <div class="card">
+                <h3>Software Tools</h3>
+                <p>Ms Excel, Teams, and Outlook for professional documentation.</p>
+            </div>
+            <div class="card">
+                <h3>Operational Skills</h3>
+                <p>Detail-Oriented Documentation, Team Collaboration, and effective Time Management.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects & Leadership</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Chemistry Symposium Lead</h3>
+                <p>Supervised a team of four for an environmental analysis project, ensuring accurate data collection and safe laboratory practices[cite: 30]. Authored a 30-page research paper on findings[cite: 31].</p>
+            </div>
+            <div class="card">
+                <h3>Event Management</h3>
+                <p>Managed logistics, vendor relationships, and budget tracking for departmental college events.</p>
+            </div>
+            <div class="card">
+                <h3>Web page creation</h3>
+                <p>creation of Wikipidea page using [HTML, CSS, Jscript].</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-contact">
+            <p><strong>Phone:</strong> 9003667531 | <strong>Email:</strong> yahiyamubin@gmail.com </p>
+            <p><strong>Address:</strong> 11, Mill Line, New Jail Road, Madurai - 625016 </p>
+        </div>
+        <p style="color: #475569; font-size: 0.8rem;">&copy; 2026 Mubin Y. | Designed for Chemistry & Tech Roles</p>
+    </footer>
+
+</body>
+</html>
